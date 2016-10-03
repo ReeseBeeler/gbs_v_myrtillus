@@ -1,0 +1,133 @@
+<?php
+//
+// Copyright 2010, Julian Catchen <jcatchen@uoregon.edu>
+//
+// This file is part of Stacks.
+//
+// Stacks is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// Stacks is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with Stacks.  If not, see <http://www.gnu.org/licenses/>.
+//
+
+//
+// Credentials to access Stacks MySQL databases
+//
+$db_user     = "dbuser";
+$db_pass     = "dbpass";
+$db_host     = "localhost";
+
+//
+// Path to the MySQL client program
+//
+$mysql_bin = "/usr/bin/mysql";
+
+//
+// File system location of PHP/HTML files
+//
+$system_path = "_PKGDATADIR_" . "php/";
+
+//
+// Location of perl script to run the exporting jobs.
+//
+$export_cmd  = "_BINDIR_" . "stacks_export_notify.pl";
+
+//
+// Name to print in page header
+//
+$site_title  = "Stacks Analysis Pipeline";
+
+//
+// URL path to root of PHP/HTML files
+//
+$root_path   = "/stacks";
+$img_path    = "/stacks/images";
+
+//
+// Length to wrap sequences at.
+// 
+$display_len = 80;
+
+//
+// Colors for printing alleles/haplotypes
+//
+$colors = array("#008000",
+		"#c00000",
+		"#ffc600",
+		"#29356c",
+		"#860000",
+		"#dc6200",
+		"#4b398e",
+		"#008f56",
+		"#bf1e25",
+		"#4cb8ff");
+$color_size = count($colors);
+
+//
+// Color map version 2; for printing alleles/haplotypes.
+//
+$color_map = array(
+    'a' => "#0074D9", // Blue
+    'b' => "#FF4136", // Red 
+    'c' => "#008000", // Dark Green
+    'd' => "#FF851B", // Orange 
+    'e' => "#001f3f", // Navy
+    'f' => "#85144b", // Maroon 
+    'g' => "#F012BE", // Fuchsia 
+    'h' => "#39CCCC", // Teal 
+    'i' => "#3D9970", // Olive 
+    'j' => "#01FF70", // Lime 
+    'k' => "#FFDC00", // Yellow 
+    'l' => "#B10DC9", // Purple 
+    'm' => "#111111", // Black 
+    'n' => "#7FDBFF", // Aqua 
+    'o' => "#AAAAAA", // Gray 
+    'p' => "#DDDDDD", // Silver 
+    'q' => "#2ECC40", // Green 
+    'r' => "#c00000",
+    's' => "#ffc600",
+    't' => "#29356c",
+    'u' => "#860000",
+    'v' => "#dc6200",
+    'w' => "#4b398e",
+    'x' => "#008f56",
+    'y' => "#bf1e25",
+    'z' => "#4cb8ff",
+    'A' => "#26081C",
+    'B' => "#C44900",
+    'C' => "#036016",
+    'D' => "#936426",
+    'E' => "#E87EA1",
+    'F' => "#692E38",
+    'G' => "#19423F",
+    'H' => "#625F64",
+    'I' => "#432534",
+    'J' => "#323845",
+    'K' => "#758E4F",
+    'L' => "#B287A3",
+    'M' => "#C0F8D1",
+    'N' => "#03440C",
+    'O' => "#8EDCE6",
+    'P' => "#D5DCF9",
+    'Q' => "#A7B0CA",
+    'R' => "#0CBABA",
+    'S' => "#725E54",
+    'T' => "#EE2677",
+    'U' => "#84A98C",
+    'V' => "#FCCA46",
+    'W' => "#A1C181",
+    'X' => "#443627",
+    'Y' => "#FE7F2D",
+    'Z' => "#2EBE62"
+);
+$color_map_size = count($color_map);
+
+?>
