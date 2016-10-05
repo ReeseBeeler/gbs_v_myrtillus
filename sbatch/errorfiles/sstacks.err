@@ -1,0 +1,15 @@
+Searching for matches by sequence identity...
+  Parsing /projects/rebe4957/gbs_v_myrtillus/data/samples/stacks/batch_0.catalog.tags.tsv
+  Parsing /projects/rebe4957/gbs_v_myrtillus/data/samples/stacks/batch_0.catalog.snps.tsv
+  Parsing /projects/rebe4957/gbs_v_myrtillus/data/samples/stacks/batch_0.catalog.alleles.tsv
+Processing sample '/projects/rebe4957/gbs_v_myrtillus/data/samples/stacks/Tripp_NoIndex_L005_R1_001' [1 of 1]
+  Parsing /projects/rebe4957/gbs_v_myrtillus/data/samples/stacks/Tripp_NoIndex_L005_R1_001.tags.tsv
+  Parsing /projects/rebe4957/gbs_v_myrtillus/data/samples/stacks/Tripp_NoIndex_L005_R1_001.snps.tsv
+  Parsing /projects/rebe4957/gbs_v_myrtillus/data/samples/stacks/Tripp_NoIndex_L005_R1_001.alleles.tsv
+Searching for sequence matches...
+15962 stacks compared against the catalog containing 15962 loci.
+  15960 matching loci, 0 contained no verified haplotypes.
+  0 loci matched more than one catalog locus and were excluded.
+  0 loci contained SNPs unaccounted for in the catalog and were excluded.
+  18155 total haplotypes examined from matching loci, 18155 verified.
+Outputing to file /projects/rebe4957/gbs_v_myrtillus/data/samples/stacks/Tripp_NoIndex_L005_R1_001.matches.tsv

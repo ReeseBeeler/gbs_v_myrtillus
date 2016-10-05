@@ -1,0 +1,43 @@
+A population map was not specified, all samples will be read from '/projects/rebe4957/gbs_v_myrtillus/data/samples/stacks/' as a single popultaion.
+Fst kernel smoothing: on
+Bootstrap resampling: on, exact; 100 reptitions
+Percent samples limit per population: 0
+Locus Population limit: 1
+Minimum stack depth: 0
+Log liklihood filtering: off; threshold: 0
+Minor allele frequency cutoff: 0
+Maximum observed heterozygosity cutoff: 1
+Applying Fst correction: none.
+No population map specified, building file list.
+Found 1 input file(s).
+  1 population found
+    1: Tripp_NoIndex_L005_R1_001
+  1 group of populations found
+    1: 1
+  Parsing /projects/rebe4957/gbs_v_myrtillus/data/samples/stacks/batch_0.catalog.tags.tsv
+  Parsing /projects/rebe4957/gbs_v_myrtillus/data/samples/stacks/batch_0.catalog.snps.tsv
+  Parsing /projects/rebe4957/gbs_v_myrtillus/data/samples/stacks/batch_0.catalog.alleles.tsv
+Catalog is not reference aligned, arbitrarily ordering catalog loci.
+  Parsing /projects/rebe4957/gbs_v_myrtillus/data/samples/stacks/Tripp_NoIndex_L005_R1_001.matches.tsv
+Populating observed haplotypes for 1 samples, 15962 loci.
+Removing 2 loci that did not pass sample/population constraints... retained 15960 loci.
+Loading model outputs for 1 samples, 15960 loci.
+  Parsing /projects/rebe4957/gbs_v_myrtillus/data/samples/stacks/Tripp_NoIndex_L005_R1_001.models.tsv
+Generating nucleotide-level summary statistics for population '1'
+Population '1' contained 0 incompatible loci -- more than two alleles present.
+Tallying loci across populations...done.
+Pruned 0 variant sites due to filter constraints.
+  (enable the --verbose flag to record the reason why each site was filtered in the batch_X.populations.log file.)
+Removing 4792 additional loci for which all variant sites were filtered... retained 11168 loci.
+Regenerating nucleotide-level summary statistics for population '1'
+Population '1' contained 0 incompatible loci -- more than two alleles present.
+Re-tallying loci across populations...done.
+Generating haplotype-level summary statistics for population '1'
+Calculating halotype F statistics across all populations/groups and bootstrap resampling...
+  Generating haplotype F statistics for un...done.
+done.
+Writing haplotype F statistics... wrote 0 loci to haplotype Phi_st file, '/projects/rebe4957/gbs_v_myrtillus/data/samples/stacks/batch_0.phistats.tsv'
+Calculating pairwise halotype F statistics and bootstrap resampling...
+Writing 11168 loci to summary statistics file, '/projects/rebe4957/gbs_v_myrtillus/data/samples/stacks/batch_0.sumstats.tsv'
+Writing 11168 loci to observed haplotype file, '/projects/rebe4957/gbs_v_myrtillus/data/samples/stacks/batch_0.haplotypes.tsv'
+Writing population data to Phylip file '/projects/rebe4957/gbs_v_myrtillus/data/samples/stacks/batch_0.phylip'; logging nucleotide positions to '/projects/rebe4957/gbs_v_myrtillus/data/samples/stacks/batch_0.phylip.log'...  No data is available to write to the Phylip file.

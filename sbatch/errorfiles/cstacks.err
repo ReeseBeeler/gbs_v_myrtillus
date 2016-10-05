@@ -1,0 +1,9 @@
+Number of mismatches allowed between stacks: 1
+Loci matched based on sequence identity.
+Constructing catalog from 1 samples.
+Initializing new catalog...
+  Parsing /projects/rebe4957/gbs_v_myrtillus/data/samples/stacks/Tripp_NoIndex_L005_R1_001.tags.tsv
+  Parsing /projects/rebe4957/gbs_v_myrtillus/data/samples/stacks/Tripp_NoIndex_L005_R1_001.snps.tsv
+  Parsing /projects/rebe4957/gbs_v_myrtillus/data/samples/stacks/Tripp_NoIndex_L005_R1_001.alleles.tsv
+  15962 loci were newly added to the catalog.
+Writing catalog to '/projects/rebe4957/gbs_v_myrtillus/data/samples/stacks/... done.
